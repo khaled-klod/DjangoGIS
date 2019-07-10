@@ -1,0 +1,3185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Folder>
+      <name>map (11)</name>
+      <Folder>
+        <name>Polygon</name>
+        <Placemark>
+          <name>
+          </name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>building: $[building]<br/>type: $[type]<br/>restriction: $[restriction]<br/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+            <Data name="type">
+              <value>multipolygon</value>
+            </Data>
+            <Data name="restriction">
+              <value>
+              </value>
+            </Data>
+            <Data name="highway">
+              <value>
+              </value>
+            </Data>
+            <Data name="lanes">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:ar">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:fr">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8719216,37.2711799,0
+9.8716043,37.2715266,0
+9.8711119,37.2712413,0
+9.871297,37.271038,0
+9.8716748,37.2710372,0
+9.8719216,37.2711799,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+            <innerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8717974,37.2711986,0
+9.8715838,37.271432,0
+9.8712372,37.2712312,0
+9.8713438,37.2711143,0
+9.8716485,37.2711137,0
+9.8717974,37.2711986,0
+</coordinates>
+              </LinearRing>
+            </innerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Parc d’Activités Economiques de Bizerte</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>landuse: $[landuse]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="landuse">
+              <value>industrial</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.870054,37.267159,0
+9.870212,37.2676961,0
+9.8722276,37.2688895,0
+9.8724372,37.2686692,0
+9.8733825,37.2687037,0
+9.8749231,37.2695354,0
+9.8750779,37.2693763,0
+9.8750687,37.2691591,0
+9.874972,37.2691116,0
+9.8749096,37.2688981,0
+9.8747027,37.2687869,0
+9.8747281,37.268741,0
+9.8721974,37.2672794,0
+9.8707204,37.2664171,0
+9.8698757,37.2659239,0
+9.869707,37.2661349,0
+9.8686594,37.2655257,0
+9.8682673,37.2653075,0
+9.8676417,37.2650663,0
+9.8670539,37.2648013,0
+9.8661918,37.2645589,0
+9.8654983,37.264414,0
+9.8651682,37.2643719,0
+9.8630719,37.2642175,0
+9.862225,37.2641713,0
+9.8622511,37.2639371,0
+9.8603347,37.2638292,0
+9.8603159,37.264001,0
+9.8595031,37.2639435,0
+9.8587377,37.2638893,0
+9.8584814,37.2640231,0
+9.8584814,37.264149,0
+9.8583413,37.2641267,0
+9.8583453,37.2639482,0
+9.8582772,37.2638972,0
+9.8581931,37.2638924,0
+9.8581971,37.2638431,0
+9.8569789,37.2637648,0
+9.8555591,37.2637026,0
+9.8537075,37.2636779,0
+9.8517718,37.2634314,0
+9.8515766,37.2629901,0
+9.8512907,37.2628308,0
+9.8512066,37.2625572,0
+9.8511298,37.2623061,0
+9.8507803,37.2620075,0
+9.8506012,37.2619872,0
+9.8502884,37.2613648,0
+9.8502602,37.2613086,0
+9.8503036,37.2610593,0
+9.8515562,37.2605757,0
+9.8519654,37.2608879,0
+9.8538754,37.2603643,0
+9.8538923,37.2599107,0
+9.8541767,37.2596739,0
+9.8558107,37.2596053,0
+9.8561603,37.2597071,0
+9.856437,37.259702,0
+9.8562274,37.2589003,0
+9.8556173,37.2588146,0
+9.8556902,37.2583446,0
+9.8556981,37.2582934,0
+9.8527197,37.257815,0
+9.8526782,37.2577941,0
+9.850764,37.2568296,0
+9.8475344,37.2588503,0
+9.8475274,37.2590783,0
+9.8477295,37.2597619,0
+9.8458968,37.2608111,0
+9.8456579,37.2610414,0
+9.8456442,37.2615459,0
+9.8455155,37.262171,0
+9.8451205,37.2634322,0
+9.8452585,37.2635225,0
+9.8453986,37.2636072,0
+9.8458459,37.2638529,0
+9.8458881,37.2639534,0
+9.8466644,37.2643518,0
+9.8473132,37.2645167,0
+9.8476994,37.2645949,0
+9.8493922,37.2649378,0
+9.8498884,37.2649434,0
+9.8512769,37.2648866,0
+9.8512856,37.2646514,0
+9.8516679,37.264686,0
+9.852237,37.2646929,0
+9.853271,37.2647033,0
+9.8539183,37.2647275,0
+9.8545353,37.2647621,0
+9.8552543,37.2648452,0
+9.8558128,37.2649137,0
+9.8568338,37.2651176,0
+9.8576686,37.2652371,0
+9.8600389,37.2653821,0
+9.8606515,37.265414,0
+9.8610059,37.265406,0
+9.861424,37.2653731,0
+9.8614094,37.2654635,0
+9.8614032,37.2655018,0
+9.8618578,37.2655385,0
+9.8635819,37.2656776,0
+9.8647934,37.2657753,0
+9.8651476,37.2658039,0
+9.8658523,37.2658893,0
+9.866517,37.2660346,0
+9.8679247,37.2664272,0
+9.8679171,37.2664746,0
+9.8678706,37.2665395,0
+9.8681842,37.2667684,0
+9.8685552,37.2670945,0
+9.8688444,37.2671494,0
+9.8699165,37.2673122,0
+9.870054,37.267159,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="building">
+              <value>roof</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8731186,37.2701245,0
+9.8731799,37.2700635,0
+9.8732436,37.270104,0
+9.8731823,37.270165,0
+9.8731186,37.2701245,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8734034,37.2701,0
+9.8732716,37.2702451,0
+9.8731825,37.2701938,0
+9.8733143,37.2700487,0
+9.8734034,37.2701,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Place Foch</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>leisure: $[leisure]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="leisure">
+              <value>park</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Place Foch</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8723279,37.2709272,0
+9.8731906,37.2714292,0
+9.8739431,37.2706701,0
+9.874023,37.2699594,0
+9.8741028,37.2697265,0
+9.8733789,37.2699314,0
+9.8734744,37.2699999,0
+9.8734034,37.2701,0
+9.8732716,37.2702451,0
+9.8732741,37.2703484,0
+9.8731908,37.270449,0
+9.8729033,37.2702822,0
+9.8723279,37.2709272,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>نادي التنس بنزرت</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:city: $[addr:city]<br/>leisure: $[leisure]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>sport: $[sport]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:city">
+              <value>بنزرت</value>
+            </Data>
+            <Data name="leisure">
+              <value>sports_centre</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نادي التنس بنزرت</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Tennis Club de Bizerte</value>
+            </Data>
+            <Data name="sport">
+              <value>tennis</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8722181,37.271431,0
+9.8728617,37.2718113,0
+9.8725963,37.2720957,0
+9.8719527,37.2717154,0
+9.8722181,37.271431,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Square Dag Hammarskjöld</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>leisure: $[leisure]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="leisure">
+              <value>park</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Square Dag Hammarskjöld</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8705956,37.2700307,0
+9.8701335,37.2705423,0
+9.8700862,37.2705153,0
+9.8700089,37.2706008,0
+9.8701479,37.2706803,0
+9.8704425,37.2708488,0
+9.8709819,37.2702516,0
+9.8705956,37.2700307,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>مدينة</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>landuse: $[landuse]<br/>long_name:ar: $[long_name:ar]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>place: $[place]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="landuse">
+              <value>residential</value>
+            </Data>
+            <Data name="long_name:ar">
+              <value>مدينة عتيقة</value>
+            </Data>
+            <Data name="name:ar">
+              <value>مدينة</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Medina</value>
+            </Data>
+            <Data name="place">
+              <value>suburb</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8700943,37.2763459,0
+9.8703569,37.2749954,0
+9.8703112,37.2746501,0
+9.8701438,37.2741959,0
+9.8700753,37.2736054,0
+9.8700981,37.2733177,0
+9.870745,37.272276,0
+9.8709125,37.27227,0
+9.872781,37.2738386,0
+9.8729522,37.2739355,0
+9.8730664,37.2754405,0
+9.8731881,37.2759492,0
+9.8734355,37.2764277,0
+9.8742499,37.2772452,0
+9.8744706,37.2774966,0
+9.8743789,37.2775865,0
+9.8746065,37.2778157,0
+9.8748397,37.2780506,0
+9.8749691,37.2781809,0
+9.8760042,37.2786412,0
+9.8764608,37.2788198,0
+9.8769517,37.2789106,0
+9.8768261,37.2791862,0
+9.8769327,37.2792346,0
+9.8768816,37.2793255,0
+9.8767767,37.2792861,0
+9.8764951,37.2797948,0
+9.8763923,37.2797645,0
+9.8764114,37.2797252,0
+9.8757987,37.2795556,0
+9.8757606,37.2796131,0
+9.8756388,37.2795768,0
+9.8756807,37.2795223,0
+9.8750756,37.2793103,0
+9.8750414,37.27938,0
+9.8749234,37.2793406,0
+9.8749577,37.2792831,0
+9.8744135,37.2791589,0
+9.874364,37.2792467,0
+9.8741509,37.279165,0
+9.8734127,37.2795435,0
+9.8730588,37.2797857,0
+9.8729674,37.2797797,0
+9.8728152,37.2798766,0
+9.8722406,37.2794738,0
+9.8724232,37.279277,0
+9.872115,37.279053,0
+9.8714833,37.2792528,0
+9.8711066,37.279277,0
+9.8708592,37.2792286,0
+9.8700829,37.2789894,0
+9.8699269,37.2788592,0
+9.8697328,37.2782596,0
+9.8700943,37.2763459,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Hôtel de ville de Bizerte</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>townhall</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8723216,37.2713684,0
+9.8724954,37.2711832,0
+9.8728457,37.2713913,0
+9.872672,37.2715766,0
+9.8723216,37.2713684,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>École Militaire des Sous-Officiers</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>barrier: $[barrier]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>university</value>
+            </Data>
+            <Data name="barrier">
+              <value>wall</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8635362,37.2722377,0
+9.8643585,37.2721686,0
+9.8645447,37.2721529,0
+9.8652829,37.271735,0
+9.865047,37.2714443,0
+9.8657206,37.2710355,0
+9.8662495,37.2706751,0
+9.8651079,37.2698423,0
+9.8624174,37.2712778,0
+9.862835,37.2717717,0
+9.8631214,37.2721105,0
+9.8635362,37.2722377,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>المدرسة الثانوية بنت بنزرت</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:city: $[addr:city]<br/>amenity: $[amenity]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:city">
+              <value>بنزرت</value>
+            </Data>
+            <Data name="amenity">
+              <value>school</value>
+            </Data>
+            <Data name="name:ar">
+              <value>المدرسة الثانوية بنت بنزرت</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Lycée jeune fille de Bizerte</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8693344,37.2693233,0
+9.8686213,37.2698277,0
+9.8693819,37.2702312,0
+9.8698731,37.2696469,0
+9.8693344,37.2693233,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Lycée Farhat Hached</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>barrier: $[barrier]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>school</value>
+            </Data>
+            <Data name="barrier">
+              <value>wall</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8671294,37.2720011,0
+9.867087,37.2719325,0
+9.8664794,37.2709485,0
+9.8662495,37.2706751,0
+9.865047,37.2714443,0
+9.8652829,37.271735,0
+9.8645447,37.2721529,0
+9.8643585,37.2721686,0
+9.8645826,37.2724428,0
+9.8647157,37.2723883,0
+9.8648525,37.2726122,0
+9.8651528,37.2731657,0
+9.8652859,37.2732504,0
+9.8659024,37.2729377,0
+9.8662818,37.2727453,0
+9.8666467,37.2725275,0
+9.8669888,37.2722946,0
+9.8670762,37.2722189,0
+9.8671142,37.2721403,0
+9.8671294,37.2720647,0
+9.8671294,37.2720011,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>مكتب البحرية التجارية ومنافذ بنزرت</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:city: $[addr:city]<br/>addr:housenumber: $[addr:housenumber]<br/>addr:postcode: $[addr:postcode]<br/>addr:street: $[addr:street]<br/>building:levels: $[building:levels]<br/>email: $[email]<br/>landuse: $[landuse]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>phone: $[phone]<br/>wheelchair: $[wheelchair]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:city">
+              <value>بنزرت</value>
+            </Data>
+            <Data name="addr:housenumber">
+              <value>6</value>
+            </Data>
+            <Data name="addr:postcode">
+              <value>7000</value>
+            </Data>
+            <Data name="addr:street">
+              <value>رصيف طارق بن زياد</value>
+            </Data>
+            <Data name="building:levels">
+              <value>2</value>
+            </Data>
+            <Data name="email">
+              <value>port.bizerte@ommp.nat.tn</value>
+            </Data>
+            <Data name="landuse">
+              <value>commercial</value>
+            </Data>
+            <Data name="name:ar">
+              <value>مكتب البحرية التجارية ومنافذ بنزرت</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Office de la Marine Marchande et des Ports de Bizerte</value>
+            </Data>
+            <Data name="phone">
+              <value>(216) 72.433.748 /72.436.355</value>
+            </Data>
+            <Data name="wheelchair">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.870054,37.267159,0
+9.870212,37.2676961,0
+9.8722276,37.2688895,0
+9.8724372,37.2686692,0
+9.8733825,37.2687037,0
+9.8749231,37.2695354,0
+9.8750779,37.2693763,0
+9.8750687,37.2691591,0
+9.874972,37.2691116,0
+9.8749096,37.2688981,0
+9.8747281,37.268741,0
+9.8707204,37.2664171,0
+9.870054,37.267159,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Lycée Farhat Hached de Bizerte</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8670092,37.272068,0
+9.8671294,37.2720647,0
+9.8671294,37.2720011,0
+9.867087,37.2719325,0
+9.8669878,37.2719655,0
+9.8670039,37.272021,0
+9.8670092,37.272068,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>الشركة التونسية للكهرباء والغاز</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:city: $[addr:city]<br/>building: $[building]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>office: $[office]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:city">
+              <value>بنزرت</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+            <Data name="name:ar">
+              <value>الشركة التونسية للكهرباء والغاز</value>
+            </Data>
+            <Data name="name:fr">
+              <value>STEG</value>
+            </Data>
+            <Data name="office">
+              <value>government</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8687451,37.2679536,0
+9.868591,37.2681375,0
+9.8687545,37.2682304,0
+9.8686284,37.2683977,0
+9.8688128,37.2685054,0
+9.8689156,37.2683902,0
+9.8690977,37.268485,0
+9.8693032,37.2682732,0
+9.8687451,37.2679536,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Bab Mateur</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>post_office</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8654553,37.2699082,0
+9.8652645,37.2697649,0
+9.8653125,37.2696789,0
+9.865567,37.2697458,0
+9.8654553,37.2699082,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Bureau de Poste de Bizerte</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:postcode: $[addr:postcode]<br/>amenity: $[amenity]<br/>building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:postcode">
+              <value>7000</value>
+            </Data>
+            <Data name="amenity">
+              <value>post_office</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8735293,37.2722072,0
+9.873727,37.2721695,0
+9.8736934,37.272031,0
+9.8738199,37.2720043,0
+9.8737922,37.2718957,0
+9.8736499,37.2718139,0
+9.8734265,37.2718658,0
+9.8735293,37.2722072,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>مونوبري</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:city: $[addr:city]<br/>building: $[building]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>operator: $[operator]<br/>shop: $[shop]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:city">
+              <value>بنزرت</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+            <Data name="name:ar">
+              <value>مونوبري</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Monoprix</value>
+            </Data>
+            <Data name="operator">
+              <value>مونوبري</value>
+            </Data>
+            <Data name="shop">
+              <value>supermarket</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8719451,37.2725593,0
+9.8721597,37.272333,0
+9.8716769,37.2720769,0
+9.8714731,37.2722861,0
+9.8719451,37.2725593,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>مونوبري</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:city: $[addr:city]<br/>building: $[building]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>operator: $[operator]<br/>shop: $[shop]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:city">
+              <value>بنزرت</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+            <Data name="name:ar">
+              <value>مونوبري</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Monoprix</value>
+            </Data>
+            <Data name="operator">
+              <value>مونوبري</value>
+            </Data>
+            <Data name="shop">
+              <value>supermarket</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8710898,37.2714723,0
+9.8711606,37.271385,0
+9.8712845,37.2714639,0
+9.8712172,37.2715371,0
+9.8710898,37.2714723,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[landuse: $[landuse]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="landuse">
+              <value>commercial</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8659024,37.2729377,0
+9.8670762,37.2722189,0
+9.8671294,37.2720011,0
+9.8657328,37.2727171,0
+9.8659024,37.2729377,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Ancienne Église Notre-Dame de France</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>building: $[building]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="building">
+              <value>church</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8734858,37.2713644,0
+9.8739661,37.2716938,0
+9.8742396,37.271388,0
+9.8737075,37.2711204,0
+9.8734858,37.2713644,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Place de Bone</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>leisure: $[leisure]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="leisure">
+              <value>park</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8696494,37.2709995,0
+9.8703049,37.2709643,0
+9.8703543,37.2709231,0
+9.8699093,37.2706369,0
+9.8695991,37.2709643,0
+9.8696494,37.2709995,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Proxi</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>brand: $[brand]<br/>brand:wikidata: $[brand:wikidata]<br/>brand:wikipedia: $[brand:wikipedia]<br/>building: $[building]<br/>shop: $[shop]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="brand">
+              <value>Proxi</value>
+            </Data>
+            <Data name="brand:wikidata">
+              <value>Q3408522</value>
+            </Data>
+            <Data name="brand:wikipedia">
+              <value>fr:Proxi</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+            <Data name="shop">
+              <value>supermarket</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8664853,37.2698488,0
+9.8667232,37.2699386,0
+9.8670418,37.2695728,0
+9.8670741,37.2694701,0
+9.8667958,37.2694188,0
+9.866691,37.26956,0
+9.8666184,37.2695503,0
+9.8664853,37.2698488,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Institut Sainte-Marie</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>building: $[building]<br/>religion: $[religion]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>place_of_worship</value>
+            </Data>
+            <Data name="building">
+              <value>yes</value>
+            </Data>
+            <Data name="religion">
+              <value>christian</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8665418,37.2704745,0
+9.8666224,37.2704039,0
+9.86657,37.2703686,0
+9.8666386,37.2702756,0
+9.866687,37.2702948,0
+9.8667837,37.27016,0
+9.8668749,37.2702369,0
+9.8668039,37.2703109,0
+9.8670418,37.2704232,0
+9.8670942,37.2703429,0
+9.8671829,37.2703847,0
+9.8669692,37.2706895,0
+9.8668805,37.2706478,0
+9.8669168,37.270574,0
+9.866691,37.2704809,0
+9.8666386,37.2705259,0
+9.8665418,37.2704745,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+        <Placemark>
+          <name>Ecole Jean Giono</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>school</value>
+            </Data>
+          </ExtendedData>
+          <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>9.8677735,37.2689787,0
+9.8683422,37.2693132,0
+9.868752,37.2689758,0
+9.8680844,37.2685935,0
+9.8677735,37.2689787,0
+</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>GeometryCollection</name>
+        <Placemark>
+          <name>
+          </name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>restriction: $[restriction]<br/>type: $[type]<br/>building: $[building]<br/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="restriction">
+              <value>no_u_turn</value>
+            </Data>
+            <Data name="type">
+              <value>restriction</value>
+            </Data>
+            <Data name="building">
+              <value>
+              </value>
+            </Data>
+            <Data name="highway">
+              <value>
+              </value>
+            </Data>
+            <Data name="lanes">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:ar">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:fr">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <extrude>1</extrude>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>9.8730101,37.2701305,0
+9.8733503,37.2697089,0
+</coordinates>
+            </LineString>
+            <LineString>
+              <extrude>1</extrude>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>9.8730101,37.2701305,0
+9.8733503,37.2697089,0
+</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark>
+          <name>
+          </name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>restriction: $[restriction]<br/>type: $[type]<br/>building: $[building]<br/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+            <PolyStyle>
+              <color>B2A5A5A5</color>
+            </PolyStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="restriction">
+              <value>no_left_turn</value>
+            </Data>
+            <Data name="type">
+              <value>restriction</value>
+            </Data>
+            <Data name="building">
+              <value>
+              </value>
+            </Data>
+            <Data name="highway">
+              <value>
+              </value>
+            </Data>
+            <Data name="lanes">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:ar">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:fr">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <extrude>1</extrude>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>9.8730101,37.2701305,0
+9.8733503,37.2697089,0
+</coordinates>
+            </LineString>
+            <LineString>
+              <extrude>1</extrude>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>9.8733503,37.2697089,0
+9.8734486,37.2697417,0
+9.8735843,37.269743,0
+9.8741925,37.2696177,0
+</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Line</name>
+        <Placemark>
+          <name>نهج ٨ فبراير ١٩٣٨</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>oneway: $[oneway]<br/>ref: $[ref]<br/>building: $[building]<br/>type: $[type]<br/>restriction: $[restriction]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>primary</value>
+            </Data>
+            <Data name="lanes">
+              <value>3</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج ٨ فبراير ١٩٣٨</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue du 8 Janvier 1938</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+            <Data name="ref">
+              <value>RN 8 طو</value>
+            </Data>
+            <Data name="building">
+              <value>
+              </value>
+            </Data>
+            <Data name="type">
+              <value>
+              </value>
+            </Data>
+            <Data name="restriction">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8742397,37.2696424,0
+9.8741792,37.2697049,0
+9.8740821,37.2699584,0
+9.8740748,37.2700645,0
+9.8740713,37.2701162,0
+9.8740122,37.2706852,0
+9.8738482,37.2708802,0
+9.8732316,37.2715069,0
+9.872621,37.2721647,0
+9.8721201,37.2727285,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع الجزائر</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>building: $[building]<br/>type: $[type]<br/>restriction: $[restriction]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع الجزائر</value>
+            </Data>
+            <Data name="building">
+              <value>
+              </value>
+            </Data>
+            <Data name="type">
+              <value>
+              </value>
+            </Data>
+            <Data name="restriction">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:fr">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8732316,37.2715069,0
+9.8735555,37.2727092,0
+9.8737927,37.2734512,0
+9.8738868,37.273777,0
+9.8740228,37.2742484,0
+9.8740791,37.2744434,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع حسن النوري</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>building: $[building]<br/>type: $[type]<br/>restriction: $[restriction]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>secondary</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع حسن النوري</value>
+            </Data>
+            <Data name="building">
+              <value>
+              </value>
+            </Data>
+            <Data name="type">
+              <value>
+              </value>
+            </Data>
+            <Data name="restriction">
+              <value>
+              </value>
+            </Data>
+            <Data name="name:fr">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.870841,37.2719717,0
+9.8706594,37.2722234,0
+9.8700154,37.2732899,0
+9.8699754,37.2735068,0
+9.8700031,37.2739307,0
+9.87006,37.2741934,0
+9.8702711,37.2748433,0
+9.8702686,37.2750487,0
+9.8702316,37.2752177,0
+9.870103,37.2758051,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج عبد العزيز طالبي</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج عبد العزيز طالبي</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue Talbi</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8688104,37.2709771,0
+9.869422,37.2703185,0
+9.870037,37.2696342,0
+9.8706156,37.2690008,0
+9.8711731,37.2683904,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج منصف باي</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج منصف باي</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue Moncef Bey</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8699215,37.2715016,0
+9.8703795,37.2710023,0
+9.8704565,37.2709135,0
+9.8710747,37.2702386,0
+9.8716557,37.2696024,0
+9.8722132,37.2689921,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع الحبيب بورقيبة</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>oneway: $[oneway]<br/>ref: $[ref]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>primary</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع الحبيب بورقيبة</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Avenue Habib Bourgiba</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+            <Data name="ref">
+              <value>RN 11 طو</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8721201,37.2727285,0
+9.8711422,37.2721499,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع الطيب المهيري</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع الطيب المهيري</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.872246,37.2709206,0
+9.8712871,37.2709626,0
+9.8706127,37.2709921,0
+9.8703795,37.2710023,0
+9.8694972,37.2710409,0
+9.8689878,37.2710609,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج الجزائر</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج الجزائر</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue d'Alger</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8693396,37.271227,0
+9.8694972,37.2710409,0
+9.8699137,37.2706013,0
+9.8705324,37.2699227,0
+9.8711121,37.269288,0
+9.8716696,37.2686776,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع الجزائر</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع الجزائر</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8728477,37.2702919,0
+9.8726292,37.2695057,0
+9.8725437,37.2691832,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج إسبانيا</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج إسبانيا</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue du 2 Mars 1934</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8749304,37.2735224,0
+9.8741491,37.2730629,0
+9.8735555,37.2727092,0
+9.872621,37.2721647,0
+9.8716417,37.271589,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج اليونان</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>oneway: $[oneway]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج اليونان</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue Habib Thameur</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.872246,37.2709206,0
+9.8732316,37.2715069,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8694679,37.2693028,0
+9.8700451,37.2686708,0
+9.8706026,37.2680604,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8701028,37.2677713,0
+9.8695453,37.2683817,0
+9.8689693,37.2690125,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج حبيب تامور</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج حبيب تامور</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue Habib Thameur</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8660368,37.2672971,0
+9.8675154,37.2681711,0
+9.868107,37.2685103,0
+9.8689693,37.2690125,0
+9.8694679,37.2693028,0
+9.870037,37.2696342,0
+9.8705324,37.2699227,0
+9.8710747,37.2702386,0
+9.8716525,37.270575,0
+9.872246,37.2709206,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج إسبانيا</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج إسبانيا</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue d'Espagne</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8716417,37.271589,0
+9.8710468,37.2712531,0
+9.8706127,37.2709921,0
+9.8704565,37.2709135,0
+9.8699137,37.2706013,0
+9.869422,37.2703185,0
+9.8674074,37.2692726,0
+9.8665699,37.2688132,0
+9.8653106,37.2681392,0
+9.8646382,37.2678477,0
+9.8640493,37.2676418,0
+9.863615,37.26749,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع حسن النوري</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>secondary</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع حسن النوري</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8706594,37.2722234,0
+9.8709087,37.2721855,0
+9.8711422,37.2721499,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع هدي شاكر</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>tertiary</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع هدي شاكر</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Boulevard Hédi Chaker</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8682753,37.2739748,0
+9.8677284,37.2729236,0
+9.8675264,37.2725313,0
+9.867327,37.2721731,0
+9.867149,37.2718726,0
+9.8669959,37.2716142,0
+9.8668625,37.2713889,0
+9.8667551,37.2712077,0
+9.8666238,37.270986,0
+9.8663453,37.2706275,0
+9.8651181,37.2697623,0
+9.8647692,37.2694651,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>شارع الحبيب بورقيبة</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]<br/>ref: $[ref]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>primary</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>شارع الحبيب بورقيبة</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Avenue Habib Bourgiba</value>
+            </Data>
+            <Data name="ref">
+              <value>RN 11 طو</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8711422,37.2721499,0
+9.870841,37.2719717,0
+9.8705396,37.2717934,0
+9.8701151,37.271593,0
+9.8699215,37.2715016,0
+9.8697991,37.2714439,0
+9.8693396,37.271227,0
+9.8689878,37.2710609,0
+9.8688104,37.2709771,0
+9.8682571,37.2707147,0
+9.8679819,37.2705841,0
+9.8676865,37.2704439,0
+9.8673645,37.2702911,0
+9.8672704,37.2702456,0
+9.8667665,37.2700062,0
+9.866157,37.2697916,0
+9.8652986,37.269595,0
+9.8647692,37.2694651,0
+9.8642475,37.2692274,0
+9.8637949,37.2690211,0
+9.8637429,37.2689974,0
+9.8632493,37.2687724,0
+9.8630298,37.2686724,0
+9.8625368,37.2684459,0
+9.8623937,37.268382,0
+9.8619183,37.2681695,0
+9.8614128,37.2679435,0
+9.8611679,37.2678804,0
+9.8607986,37.2678063,0
+9.8604125,37.2676771,0
+9.8603176,37.2676454,0
+9.8582886,37.266749,0
+9.8573252,37.2662505,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج اليونان</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue de Grèce</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8732316,37.2715069,0
+9.8741333,37.2720289,0
+9.8743095,37.2721309,0
+9.8747645,37.2723943,0
+9.8755518,37.2728501,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج بلجيكا</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]<br/>name:fr: $[name:fr]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج بلجيكا</value>
+            </Data>
+            <Data name="name:fr">
+              <value>Rue de Belgique</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8682846,37.2676524,0
+9.8686732,37.2678781,0
+9.8695453,37.2683817,0
+9.8700451,37.2686708,0
+9.8706156,37.2690008,0
+9.8711121,37.269288,0
+9.8716557,37.2696024,0
+9.8722349,37.2699374,0
+9.8728477,37.2702919,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>oneway: $[oneway]<br/>service: $[service]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>service</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+            <Data name="service">
+              <value>driveway</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8729352,37.270205,0
+9.8731304,37.2701934,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>oneway: $[oneway]<br/>service: $[service]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>service</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+            <Data name="service">
+              <value>driveway</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8731304,37.2701934,0
+9.873262,37.2700533,0
+9.8732551,37.2699648,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>service: $[service]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>service</value>
+            </Data>
+            <Data name="service">
+              <value>driveway</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8731131,37.270448,0
+9.8731586,37.2703645,0
+9.8731304,37.2701934,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8682528,37.2717422,0
+9.8693396,37.271227,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.867149,37.2718726,0
+9.8680895,37.2715233,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8678261,37.2711832,0
+9.8680895,37.2715233,0
+9.868148,37.2715988,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8667551,37.2712077,0
+9.867159,37.2709659,0
+9.8674977,37.2707024,0
+9.8676865,37.2704439,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.868148,37.2715988,0
+9.8682528,37.2717422,0
+9.8684948,37.2720605,0
+9.8687775,37.2724323,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8668625,37.2713889,0
+9.8673036,37.2712172,0
+9.867728,37.2708941,0
+9.8679819,37.2705841,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>Rue Salah Ben Ali</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>oneway: $[oneway]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8642975,37.2743873,0
+9.8655227,37.2736216,0
+9.8660669,37.2733642,0
+9.8675264,37.2725313,0
+9.8684948,37.2720605,0
+9.8697991,37.2714439,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>Rue de Provence</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>oneway: $[oneway]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="oneway">
+              <value>yes</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8701151,37.271593,0
+9.8698368,37.2719401,0
+9.8687775,37.2724323,0
+9.8685165,37.2725536,0
+9.8677284,37.2729236,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>نهج الشيخ إدريس الشريف</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]<br/>name:ar: $[name:ar]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+            <Data name="name:ar">
+              <value>نهج الشيخ إدريس الشريف</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8740451,37.2744802,0
+9.8738935,37.2743944,0
+9.8732558,37.2740333,0
+9.8730202,37.2738913,0
+9.8727771,37.2737447,0
+9.8718676,37.2730149,0
+9.8709087,37.2721855,0
+</coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>Boulevard Farhat Hached</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>highway: $[highway]<br/>lanes: $[lanes]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="highway">
+              <value>residential</value>
+            </Data>
+            <Data name="lanes">
+              <value>2</value>
+            </Data>
+          </ExtendedData>
+          <LineString>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8653074,37.2733282,0
+9.8663046,37.2728207,0
+9.866619,37.2726348,0
+9.867327,37.2721731,0
+9.8680191,37.2716979,0
+9.868148,37.2715988,0
+9.8683595,37.2714198,0
+9.8688104,37.2709771,0
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Point</name>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>restaurant</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8697752,37.2683693,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8697215,37.2685458,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Бухло</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>opening_hours: $[opening_hours]<br/>shop: $[shop]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="opening_hours">
+              <value>Mo-Su 10:00-19:00</value>
+            </Data>
+            <Data name="shop">
+              <value>alcohol</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8708723,37.2711775,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Attijariwafa Bank</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>brand: $[brand]<br/>brand:wikidata: $[brand:wikidata]<br/>brand:wikipedia: $[brand:wikipedia]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+            <Data name="brand">
+              <value>Attijariwafa Bank</value>
+            </Data>
+            <Data name="brand:wikidata">
+              <value>Q758052</value>
+            </Data>
+            <Data name="brand:wikipedia">
+              <value>en:Attijariwafa Bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8718011,37.2708291,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>BIAT</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.870102,37.2702443,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>BNA</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>brand: $[brand]<br/>brand:wikidata: $[brand:wikidata]<br/>brand:wikipedia: $[brand:wikipedia]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+            <Data name="brand">
+              <value>BNA</value>
+            </Data>
+            <Data name="brand:wikidata">
+              <value>Q2883410</value>
+            </Data>
+            <Data name="brand:wikipedia">
+              <value>fr:Banque nationale d'Algérie</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8722683,37.270632,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[shop: $[shop]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="shop">
+              <value>florist</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8702081,37.2707147,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Rihane Handcraft</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>addr:housenumber: $[addr:housenumber]<br/>addr:postcode: $[addr:postcode]<br/>addr:street: $[addr:street]<br/>email: $[email]<br/>name:ar: $[name:ar]<br/>opening_hours: $[opening_hours]<br/>phone: $[phone]<br/>shop: $[shop]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:housenumber">
+              <value>55</value>
+            </Data>
+            <Data name="addr:postcode">
+              <value>7000</value>
+            </Data>
+            <Data name="addr:street">
+              <value>Avenue Habib Bourgiba</value>
+            </Data>
+            <Data name="email">
+              <value>rihanemajdi@gmail.com</value>
+            </Data>
+            <Data name="name:ar">
+              <value>Rihane Handcraft</value>
+            </Data>
+            <Data name="opening_hours">
+              <value>Mo-Su 08:00-08:30</value>
+            </Data>
+            <Data name="phone">
+              <value>+21624724646</value>
+            </Data>
+            <Data name="shop">
+              <value>gift</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.871121,37.2720848,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>lwaj ras jebel</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bus_station</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8723455,37.2691612,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>ATB</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8728599,37.2700369,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Paradise Café</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8730296,37.2698499,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Café Le coin</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8731438,37.2697201,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Banque de Tunisie</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8724879,37.2698006,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Café Azaiez</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8719403,37.2710525,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Wifak Bank</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8719452,37.2703662,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>UIB</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8706057,37.2708807,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>BIAT</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.869694,37.2706223,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Amen Bank</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>bank</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.869428,37.2714926,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Café Lido</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8695684,37.2707663,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Orange</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>brand: $[brand]<br/>brand:wikidata: $[brand:wikidata]<br/>brand:wikipedia: $[brand:wikipedia]<br/>shop: $[shop]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="brand">
+              <value>Orange</value>
+            </Data>
+            <Data name="brand:wikidata">
+              <value>Q1431486</value>
+            </Data>
+            <Data name="brand:wikipedia">
+              <value>fr:Orange S.A.</value>
+            </Data>
+            <Data name="shop">
+              <value>mobile_phone</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8709356,37.2705194,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Café du Sport</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8712016,37.2702047,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>CRAFT EXPRESS</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8725758,37.2703209,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Pâtisserie Cafétéria Faouzi Jemili</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.87191,37.2691765,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>La Praline Jemili</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>cafe</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8718063,37.2692889,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Pharmacie Othman Baktache</name>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/><hr/>amenity: $[amenity]<br/>dispensing: $[dispensing]<br/>healthcare: $[healthcare]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="amenity">
+              <value>pharmacy</value>
+            </Data>
+            <Data name="dispensing">
+              <value>yes</value>
+            </Data>
+            <Data name="healthcare">
+              <value>pharmacy</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>9.8715763,37.2708531,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

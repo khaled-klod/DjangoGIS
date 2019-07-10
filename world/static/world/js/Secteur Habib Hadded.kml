@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://earth.google.com/kml/2.0" >
+<Document> 
+  <name>Doc1</name>
+  <Schema parent="Placemark" name="Placemark">
+    <SimpleField type="wstring" name="CodeGeoDel"/>
+    <SimpleField type="wstring" name="NAME1"/>
+    <SimpleField type="wstring" name="Name-ar"/>
+    <SimpleField type="wstring" name="NomDelegat"/>
+    <SimpleField type="wstring" name="name_fr"/>
+    <SimpleField type="wstring" name="ref_tn_cod"/>
+  </Schema>
+    <Folder>
+        <Placemark> 
+          <name>
+2302
+          </name>
+                <Polygon>
+                  <outerBoundaryIs>
+                  <LinearRing>
+                    <coordinates>9.8678669,37.2879564,0.0 
+                      9.8661009,37.2870543,0.0 
+                      9.8639658,37.2857141,0.0 
+                      9.8618737,37.2843398,0.0 
+                      9.859846,37.2830166,0.0 
+                      9.8593256,37.2833154,0.0 
+                      9.8584888,37.2827947,0.0 
+                      9.8571798,37.2819325,0.0 
+                      9.8564181,37.2810191,0.0 
+                      9.8557636,37.2798581,0.0 
+                      9.852781,37.2840154,0.0 
+                      9.8521266,37.2848775,0.0 
+                      9.8520944,37.2856373,0.0 
+                      9.8520944,37.2865506,0.0 
+                      9.8511073,37.2883005,0.0 
+                      9.8508927,37.2885395,0.0 
+                      9.8510108,37.2893675,0.0 
+                      9.8506299,37.2898881,0.0 
+                      9.849278,37.2906905,0.0 
+                      9.8491283,37.292461,0.0 
+                      9.8492946,37.2939633,0.0 
+                      9.8488011,37.2954825,0.0 
+                      9.848844,37.2959263,0.0 
+                      9.8504533,37.2960117,0.0 
+                      9.851891,37.2971554,0.0 
+                      9.8538222,37.2973773,0.0 
+                      9.8548099,37.2973538,0.0 
+                      9.8552283,37.296671,0.0 
+                      9.8556575,37.2961248,0.0 
+                      9.8600134,37.2940593,0.0 
+                      9.8633071,37.2915755,0.0 
+                      9.8670408,37.2886051,0.0 
+                      9.8678669,37.2879564,0.0 </coordinates>
+                  </LinearRing>
+                  </outerBoundaryIs>
+                </Polygon>
+
+          <CodeGeoDel>
+1751
+          </CodeGeoDel>
+          <NAME1>
+Habib_Hadded|BIZERTE_NORD
+          </NAME1>
+          <Name-ar>
+Ø­Ø¨ÙŠØ¨ Ø­Ø¯Ø§Ø¯
+          </Name-ar>
+          <NomDelegat>
+Bizerte_Nord
+          </NomDelegat>
+          <name_fr>
+Habib Hadded
+          </name_fr>
+          <ref_tn_cod>
+175159
+          </ref_tn_cod>
+     </Placemark>
+
+    </Folder>
+</Document>
+</kml>
