@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Folder>
+      <name>map (10)</name>
+      <Folder>
+        <name>Point</name>
+        <Placemark>
+          <name>
+          </name>
+          <description>
+          </description>
+          <Style>
+            <LineStyle>
+              <color>FF000000</color>
+              <width>1</width>
+            </LineStyle>
+            <BalloonStyle>
+              <text><![CDATA[<b>$[name]</b><br/>$[description]<hr/>addr:housenumber: $[addr:housenumber]<br/>addr:postcode: $[addr:postcode]<br/>source: $[source]<br/>air_conditioning: $[air_conditioning]<br/>bicycle: $[bicycle]<br/>bus: $[bus]<br/>by_night: $[by_night]<br/>colour: $[colour]<br/>from: $[from]<br/>network: $[network]<br/>on_demand: $[on_demand]<br/>operator: $[operator]<br/>public_transport:version: $[public_transport:version]<br/>ref: $[ref]<br/>route: $[route]<br/>service: $[service]<br/>supervised: $[supervised]<br/>text_colour: $[text_colour]<br/>to: $[to]<br/>type: $[type]<br/>url: $[url]<br/>via: $[via]<br/>wheelchair: $[wheelchair]<br/>ref:FR:FANTOIR: $[ref:FR:FANTOIR]<br/>access: $[access]<br/>foot: $[foot]<br/>highway: $[highway]<br/>lanes: $[lanes]<br/>lit: $[lit]<br/>maxspeed: $[maxspeed]<br/>oneway: $[oneway]<br/>surface: $[surface]<br/>traffic_sign: $[traffic_sign]<br/>zone:maxspeed: $[zone:maxspeed]<br/>building: $[building]<br/>wall: $[wall]<br/>start_date: $[start_date]<br/>architect: $[architect]<br/>addr:city: $[addr:city]<br/>addr:street: $[addr:street]<br/>amenity: $[amenity]<br/>leisure: $[leisure]<br/>sport: $[sport]<br/>fee: $[fee]<br/>landuse: $[landuse]<br/>bicycle_parking: $[bicycle_parking]<br/>capacity: $[capacity]<br/>covered: $[covered]<br/>material: $[material]<br/>public_transport: $[public_transport]<br/>backrest: $[backrest]<br/>seats: $[seats]<br/>addr:floor: $[addr:floor]<br/>alt_name: $[alt_name]<br/>hazard: $[hazard]<br/>opening_hours: $[opening_hours]<br/>website: $[website]<br/>workshop: $[workshop]<br/>historic: $[historic]<br/>inscription: $[inscription]<br/>memorial: $[memorial]<br/>memorial:conflict: $[memorial:conflict]<br/>natural: $[natural]<br/>man_made: $[man_made]<br/>owner: $[owner]<br/>ref:FR:ARCEP: $[ref:FR:ARCEP]<br/>ref:FR:Orange: $[ref:FR:Orange]<br/>ref:FR:Orange:NRO: $[ref:FR:Orange:NRO]<br/>street_cabinet: $[street_cabinet]<br/>telecom: $[telecom]<br/>telecom:medium: $[telecom:medium]]]></text>
+            </BalloonStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="addr:housenumber">
+              <value>17</value>
+            </Data>
+            <Data name="addr:postcode">
+              <value>44100</value>
+            </Data>
+            <Data name="source">
+              <value>Nantes Métropole 11/2011</value>
+            </Data>
+            <Data name="air_conditioning">
+              <value>
+              </value>
+            </Data>
+            <Data name="bicycle">
+              <value>
+              </value>
+            </Data>
+            <Data name="bus">
+              <value>
+              </value>
+            </Data>
+            <Data name="by_night">
+              <value>
+              </value>
+            </Data>
+            <Data name="colour">
+              <value>
+              </value>
+            </Data>
+            <Data name="from">
+              <value>
+              </value>
+            </Data>
+            <Data name="network">
+              <value>
+              </value>
+            </Data>
+            <Data name="on_demand">
+              <value>
+              </value>
+            </Data>
+            <Data name="operator">
+              <value>
+              </value>
+            </Data>
+            <Data name="public_transport:version">
+              <value>
+              </value>
+            </Data>
+            <Data name="ref">
+              <value>
+              </value>
+            </Data>
+            <Data name="route">
+              <value>
+              </value>
+            </Data>
+            <Data name="service">
+              <value>
+              </value>
+            </Data>
+            <Data name="supervised">
+              <value>
+              </value>
+            </Data>
+            <Data name="text_colour">
+              <value>
+              </value>
+            </Data>
+            <Data name="to">
+              <value>
+              </value>
+            </Data>
+            <Data name="type">
+              <value>
+              </value>
+            </Data>
+            <Data name="url">
+              <value>
+              </value>
+            </Data>
+            <Data name="via">
+              <value>
+              </value>
+            </Data>
+            <Data name="wheelchair">
+              <value>
+              </value>
+            </Data>
+            <Data name="ref:FR:FANTOIR">
+              <value>
+              </value>
+            </Data>
+            <Data name="access">
+              <value>
+              </value>
+            </Data>
+            <Data name="foot">
+              <value>
+              </value>
+            </Data>
+            <Data name="highway">
+              <value>
+              </value>
+            </Data>
+            <Data name="lanes">
+              <value>
+              </value>
+            </Data>
+            <Data name="lit">
+              <value>
+              </value>
+            </Data>
+            <Data name="maxspeed">
+              <value>
+              </value>
+            </Data>
+            <Data name="oneway">
+              <value>
+              </value>
+            </Data>
+            <Data name="surface">
+              <value>
+              </value>
+            </Data>
+            <Data name="traffic_sign">
+              <value>
+              </value>
+            </Data>
+            <Data name="zone:maxspeed">
+              <value>
+              </value>
+            </Data>
+            <Data name="building">
+              <value>
+              </value>
+            </Data>
+            <Data name="wall">
+              <value>
+              </value>
+            </Data>
+            <Data name="start_date">
+              <value>
+              </value>
+            </Data>
+            <Data name="architect">
+              <value>
+              </value>
+            </Data>
+            <Data name="addr:city">
+              <value>
+              </value>
+            </Data>
+            <Data name="addr:street">
+              <value>
+              </value>
+            </Data>
+            <Data name="amenity">
+              <value>
+              </value>
+            </Data>
+            <Data name="leisure">
+              <value>
+              </value>
+            </Data>
+            <Data name="sport">
+              <value>
+              </value>
+            </Data>
+            <Data name="fee">
+              <value>
+              </value>
+            </Data>
+            <Data name="landuse">
+              <value>
+              </value>
+            </Data>
+            <Data name="bicycle_parking">
+              <value>
+              </value>
+            </Data>
+            <Data name="capacity">
+              <value>
+              </value>
+            </Data>
+            <Data name="covered">
+              <value>
+              </value>
+            </Data>
+            <Data name="material">
+              <value>
+              </value>
+            </Data>
+            <Data name="public_transport">
+              <value>
+              </value>
+            </Data>
+            <Data name="backrest">
+              <value>
+              </value>
+            </Data>
+            <Data name="seats">
+              <value>
+              </value>
+            </Data>
+            <Data name="addr:floor">
+              <value>
+              </value>
+            </Data>
+            <Data name="alt_name">
+              <value>
+              </value>
+            </Data>
+            <Data name="hazard">
+              <value>
+              </value>
+            </Data>
+            <Data name="opening_hours">
+              <value>
+              </value>
+            </Data>
+            <Data name="website">
+              <value>
+              </value>
+            </Data>
+            <Data name="workshop">
+              <value>
+              </value>
+            </Data>
+            <Data name="historic">
+              <value>
+              </value>
+            </Data>
+            <Data name="inscription">
+              <value>
+              </value>
+            </Data>
+            <Data name="memorial">
+              <value>
+              </value>
+            </Data>
+            <Data name="memorial:conflict">
+              <value>
+              </value>
+            </Data>
+            <Data name="natural">
+              <value>
+              </value>
+            </Data>
+            <Data name="man_made">
+              <value>
+              </value>
+            </Data>
+            <Data name="owner">
+              <value>
+              </value>
+            </Data>
+            <Data name="ref:FR:ARCEP">
+              <value>
+              </value>
+            </Data>
+            <Data name="ref:FR:Orange">
+              <value>
+              </value>
+            </Data>
+            <Data name="ref:FR:Orange:NRO">
+              <value>
+              </value>
+            </Data>
+            <Data name="street_cabinet">
+              <value>
+              </value>
+            </Data>
+            <Data name="telecom">
+              <value>
+              </value>
+            </Data>
+            <Data name="telecom:medium">
+              <value>
+              </value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <extrude>1</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-1.5847894,47.2301336,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
