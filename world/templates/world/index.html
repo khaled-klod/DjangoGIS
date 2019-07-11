@@ -12,11 +12,14 @@
     }
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/shpjs@latest/dist/shp.js"></script>
+
+
   <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
 </head>
 <!-- <body onload="init()"> -->
 
-<body onload="init()">
+<body>
   <div id="map" class="map"></div>
   <div id="info" style="display: none;"></div>
   <div id="mouse-position"></div>
@@ -42,11 +45,11 @@
     <option value="ordnanceSurvey">Ordnance Survey</option>
   </select>
 
-  <!-- {% load static %} -->
+  {% load static %}
 
   <form id="form" method="post" enctype="multipart/form-data">
     {% csrf_token %}
-    <input id="layer_file" name="myfile" type="file" accept="text/*">
+    <input id="layer_file" name="myfile" type="file" accept="*">
     <input id="layer_submit" name="Submit" type="submit">
 
   </form>
@@ -65,7 +68,7 @@
   <!-- <input id="upload_finished" onclick=addLayerFunc() value="AddLayer" type="button"> -->
 
   <!-- {% load staticfiles %}
-  <script src="{% static "world/js/fileUpload.js" %}"></script> -->
+  <script data-main="{% static "world/js/fileUpload.js" %}" src="{% static "world/js/require.js" %}"></script> -->
 
 
   <script>
@@ -73,23 +76,9 @@
     var url;
     var map;
     // init: delete media files
-    function init() {
-      console.log("yoooooooooo");
-      const fs = require('fs');
-      const path = require('path');
 
-      const directory = 'test';
 
-      fs.readdir(directory, (err, files) => {
-        if (err) throw err;
 
-        for (const file of files) {
-          fs.unlink(path.join(directory, file), err => {
-            if (err) throw err;
-          });
-        }
-      });
-    }
     // Mouse Pos
     var mousePositionControl = new ol.control.MousePosition({
       coordinateFormat: ol.coordinate.createStringXY(4),
@@ -135,13 +124,41 @@
     });
 
     map.getLayers().forEach(function (layer) {
-      console.log(layer.get("name"))
+      console.log(layer.get("name"));
 
-      appendCheckBox(layer.get("name"))
+      appendCheckBox(layer.get("name"));
     });
+    // shp('./media/largeur').then(function (geojson) {
+    //   //do something with your geojson
+      
+    //   addJsonLayer(geojson);
 
+    // });
 
+    // function addJsonLayer(geojson) {
+    //   geoson.crs = {
+    //       'type': 'name',
+    //       'properties': {
+    //         'name': 'EPSG:3857'
+    //       }
+    //     };
+    //   console.log(geojson);
 
+    //   var vectorSource = new ol.source.Vector({
+    //     features: (new ol.format.GeoJSON()).readFeatures(geojson)
+    //   });
+
+    //   var vector = new ol.layer.Vector({
+    //     source: vectorSource
+    //   });
+    //   vector.set("name", "GeoJSON", true);
+
+    //   map.addLayer(vector);
+    //   map.getLayers().forEach(function (layer) {
+    //     console.log(layer.getVisible());
+
+    //   });
+    // }
 
     // UPLOAD
     $("form").submit(function (evt) {
@@ -168,20 +185,32 @@
       var uploaded_file_url = uploaded_file_url;
       console.log(uploaded_file_url)
       console.log(file_name)
-      var vectorSource = new ol.source.Vector({
-        format: new ol.format.KML(),
-        //url : 'https://openlayers.org/en/v5.1.3/examples/data/geojson/countries.geojson'
-        // url : './static/world/js/countries.geojson'
-        // url: './static/world/js/Secteur Habib Hadded.kml'
-        // url: uploaded_file_url
-        // url: './static/world/js/rond point ain meriem.kml'
-        url: '.' + uploaded_file_url
+      var patt1 = /\.([0-9a-z]+)(?:[\?#]|$)/i;
+      var m1 = (uploaded_file_url).match(patt1);
+      console.log(m1)
+      if (m1[1] == 'kml') {
+        var vectorSource = new ol.source.Vector({
+          format: new ol.format.KML(),
+          //url : 'https://openlayers.org/en/v5.1.3/examples/data/geojson/countries.geojson'
+          // url : './static/world/js/countries.geojson'
+          // url: './static/world/js/Secteur Habib Hadded.kml'
+          // url: uploaded_file_url
+          // url: './static/world/js/rond point ain meriem.kml'
+          url: '.' + uploaded_file_url
 
+        }
+        );
+      } else if (m1[1] == 'shp') {
+        shp('./media/largeur').then(function (geojson) {
+          //do something with your geojson
+          console.log("GEOJSON");
+          addJsonLayer(geojson);
+        });
       }
-      );
+
       var vector = new ol.layer.Vector({
         source: vectorSource
-      })
+      });
       vector.set("name", file_name, true);
       map.addLayer(vector);
       appendCheckBox(file_name)
