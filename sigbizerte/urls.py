@@ -25,7 +25,9 @@ urlpatterns = [
     # ex: /polls/
     path('index', views.index, name='index'),
     path('kml', views.kml, name='kml'),
-    path(r'^ajax/get_response/$', views.answer_me, name='get_response')
+    path(r'^ajax/upload/$', views.answer_me, name='upload'),
+    path(r'^ajax/download/$', views.download, name='download')
+
 
 
 ]

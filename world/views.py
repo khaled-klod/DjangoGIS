@@ -50,3 +50,17 @@ def answer_me(request):
         'file_name': myfile.name
     }
     return JsonResponse(data)
+
+def download(request):
+    myfile = request.POST['object']
+    print(myfile)
+
+    fs = FileSystemStorage()
+    filename = fs.save(myfile, myfile)
+    uploaded_file_url = fs.url(filename)
+
+    data = {
+        'respond': uploaded_file_url,
+        'file_name': myfile.name
+    }
+    return JsonResponse(data)
