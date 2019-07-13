@@ -37,15 +37,15 @@
     </select>
   </form>
   {% csrf_token %}
-  <button id="interaction_button" onclick="saveInteraction()">Save Interaction</button>
+  <button id="interaction_button" onclick="saveInteractionGeoJSON()">Save Interaction (GeoJSON)</button>
   <div id="demo"></div>
 
   <div id="download">
     {% csrf_token %}
 
-  <button id="download_json">Download GeoJSON</button>
+    <button id="download_json">Download GeoJSON</button>
   </div>
-  
+
 
   <select id="layer-select">
     <option value="Aerial">Aerial</option>
@@ -371,28 +371,38 @@
 
     addInteraction();
 
-    function saveInteraction() {
+    function saveInteractionGeoJSON() {
       console.log(vectorSourceDraw.getFeatures())
       var writer = new ol.format.GeoJSON({ projection: "EPSG:4326" });
       var geojsonStr = writer.writeFeatures(vectorSourceDraw.getFeatures());
 
-      
+
       document.getElementById("demo").innerHTML = geojsonStr;
 
+      var content = geojsonStr;
+      // any kind of extension (.txt,.cpp,.cs,.bat)
+      var filename = "draw.geojson";
 
-      $.ajax({
-            type: "POST",
-            url: '{% url 'download' %}',
-            dataType: "json",
-            data: {csrfmiddlewaretoken: window.CSRF_TOKEN, 'object': geojsonStr},
-            success: function (data) {
-               alert('Success');
+      var blob = new Blob([content], {
+        type: "application/json"
+      });
 
-            },
-            error: function () {
-             alert('Error');
-            }
-        });
+      saveAs(blob, filename);
+
+
+      // $.ajax({
+      //       type: "POST",
+      //       url: '{% url 'download' %}',
+      //       dataType: "json",
+      //       data: {csrfmiddlewaretoken: window.CSRF_TOKEN, 'object': geojsonStr},
+      //       success: function (data) {
+      //          alert('Success');
+
+      //       },
+      //       error: function () {
+      //        alert('Error');
+      //       }
+      //   });
     }
 
     // document.getElementById('export-png').addEventListener('click', function() {
@@ -413,7 +423,7 @@
     //   alert("download")
     //   evt.preventDefault();
 
-      
+
     //   console.log(formData)
     //   $.ajax({
     //     url: '{% url 'download' %}',

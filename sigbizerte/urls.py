@@ -26,7 +26,9 @@ urlpatterns = [
     path('index', views.index, name='index'),
     path('kml', views.kml, name='kml'),
     path(r'^ajax/upload/$', views.answer_me, name='upload'),
-    path(r'^ajax/download/$', views.download, name='download')
+    path(r'^ajax/download/$', views.download, name='download'),
+    
+
 
 
 

@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 from django.contrib.gis.db import models
 
+
 class WorldBorder(models.Model):
     # Regular Django fields corresponding to the attributes in the
     # world borders shapefile.
@@ -24,3 +25,28 @@ class WorldBorder(models.Model):
     # Returns the string representation of the model.
     def __str__(self):
         return self.name
+
+
+
+
+# class Test2(models.Model):
+#     # Regular Django fields corresponding to the attributes in the
+#     # world borders shapefile.
+#     name = models.CharField(max_length=50)
+#     location = models.CharField(max_length=50)
+#     description = models.CharField(max_length=50)
+#     image = models.CharField(max_length=50)
+
+#     # GeoDjango-specific: a geometry field (MultiPolygonField)
+#     # mpoly = models.MultiPolygonField()
+#     # rast = models.RasterField(null=True)
+#     # geom = models.GeometryField(null=True)
+#     # point = models.PointField(null=True)
+
+#     # line = models.LineStringField(null=True)
+#     # mpoint = models.MultiPointField(null=True)
+
+
+#     # Returns the string representation of the model.
+#     def __str__(self):
+#         return self.name
